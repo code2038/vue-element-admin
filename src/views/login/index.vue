@@ -208,7 +208,7 @@ $bg:#283443;
 $light_gray:#fff;
 $cursor: #fff;
 
-@supports (-webkit-mask: none) and (not (cater-color: $cursor)) {
+@supports (-webkit-mask: none) and (not (caret-color: $cursor)) {
   .login-container .el-input input {
     color: $cursor;
   }
